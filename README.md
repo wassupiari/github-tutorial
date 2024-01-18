@@ -99,6 +99,16 @@ L'opzione più usata:
 ```
 
 
+##### TODO
+
+ - [ ] finire i comandi base
+ - [ ] aggiungere i comandi avanzati 
+ - [ ] video tutorial - non penso 
+
+
+
+
+
 
 
 
