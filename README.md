@@ -1,7 +1,7 @@
-## Step-by-step Github tutorial ##
+# Step-by-step Github tutorial &nbsp;&nbsp;&nbsp;
 > comandi base - per adesso
 
-> prima di tutto _git_ lo usiamo da terminale e non usando una GUI
+[![Hits](https://hits.sh/github.com/wassupiari/github-tutorial.svg?label=views&color=313131&logo=Github)](https://hits.sh/github.com/wassupiari/github-tutorial/)
 
 ## Installazione di git su win
 Vai su questo sito per [scaricarlo](https://git-scm.com/download/win).
@@ -84,30 +84,59 @@ L'opzione più usata:
 
 ### Remote
 
+Il comando `git remote` ti consente di creare, visualizzare ed eliminare connessioni ad altri repository.
+
+```
+git remote <opzione1> <opzione2> 
+```
+
+Ecco le principali opzioni:
+| Opzione     | Descrizione |
+|  :----------------  |  :-------------|
+| `git remote add <name> <url>`     |  Crea una nuova connessione a un repository remoto      |
+| `git remote rm <name>`  | Rimuovi la connessione al repository remoto denominata      |
+| `git remote rename <old-name> <new-name>`      | Rinomina una connessione remota da x a y.      |
+
+L'opzione più usata:
+```
+    git remote add origin <linkallatuarepo>
+```
 
 
+### Push
+
+
+
+
+
+
+### Branch
 
 
 
 ### Esempio pratico
-> Creare un nuovo repository git per un codebase esistente
+> Creare un nuovo repository git per un codebase esistente e fare il push su github
 ```
-    cd /path/to/code \ 
-    git init \ 
-    git add . \ 
-    git commit
+    cd /path/to/code 
+    git init 
+    git add . 
+    git commit -m "first commit"
+    git branch -m main
+    git remote add origin <linkdellarepo>
+    git push -u origin main
 ```
 
 
-##### TODO
+### Riferimenti
+ Qui troverete dove ho fatto riferimento per creare questa guida.
 
- - [ ] finire i comandi base
- - [ ] aggiungere i comandi avanzati 
- - [ ] video tutorial - non penso 
+[Atlassian.com](https://www.atlassian.com/it/git/tutorials/setting-up-a-repository)
 
+[Nick White: Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
 
+### License
 
-
+[MIT](/LICENSE) © jarek  
 
 
 
