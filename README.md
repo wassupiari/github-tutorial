@@ -1,35 +1,36 @@
-# Step-by-step Github tutorial &nbsp;&nbsp;&nbsp;
+<h1> Step-by-step Github tutorial</h1>
+
 > comandi base - per adesso
 
+[![Hits](https://hits.sh/github.com/wassupiari/github-tutorial.svg?label=views&color=313131&logo=github)](https://hits.sh/github.com/wassupiari/github-tutorial/)
 
+<h1>Indice </h1>
 
-# Indice
-- [Step-by-step Github tutorial    ](#step-by-step-github-tutorial-)
-- [Indice](#indice)
-  - [Installazione di git su win ](#installazione-di-git-su-win-)
-      - [Verifica installazione ](#verifica-installazione-)
-  - [Configurazione Git ](#configurazione-git-)
-  - [Iniziamo ](#iniziamo-)
+- [Installazione di git su win ](#installazione-di-git-su-win-)
+    - [Verifica installazione ](#verifica-installazione-)
+- [Configurazione Git ](#configurazione-git-)
+- [Iniziamo ](#iniziamo-)
     - [Init ](#init-)
     - [Add ](#add-)
     - [Commit ](#commit-)
     - [Remote ](#remote-)
     - [Push ](#push-)
     - [Branch ](#branch-)
-    - [Esempio pratico ](#esempio-pratico-)
-    - [Riferimenti ](#riferimenti-)
-    - [License](#license)
+- [Esempio pratico ](#esempio-pratico-)
+- [Riferimenti ](#riferimenti-)
+- [License](#license)
 
 
 
 
 
-## Installazione di git su win <a name="installazione"></a>
+
+# Installazione di git su win <a name="installazione"></a>
 Vai su questo sito per [scaricarlo](https://git-scm.com/download/win).
 Una volta scaricato, non devi fare altro che accettare i termini di installazione.
 Una volta finito avrai git installato sul tuo pc e pronto ad essere usato da terminale.
 
-#### Verifica installazione <a name="verifica"></a>
+### Verifica installazione <a name="verifica"></a>
 Per vedere se l'installazione sia andata a buon fine devi aprire il tuo terminale(cmd) e digitare:
 
 ```
@@ -43,7 +44,7 @@ Ti dovrebbe uscire la versione di git installata:
 ```
 
 
-## Configurazione Git <a name="config"></a>
+# Configurazione Git <a name="config"></a>
 
 Prima di inziare dobbiamo configurare git per farci usare lo stesso username/email per tutte le repo su cui andremmo a lavorare
 
@@ -52,7 +53,7 @@ Prima di inziare dobbiamo configurare git per farci usare lo stesso username/ema
     git config --global user.email "email-su-github"
 ```
 
-## Iniziamo <a name="start"></a>
+# Iniziamo <a name="start"></a>
 
 Una volta fatto i passi precedentemente elencati, iniziamo dirigendoci alla cartella su cui stiamo attualmente lavorando
 ### Init <a name="Init"></a>
@@ -144,7 +145,7 @@ L'opzione più usata:
 
 
 
-### Esempio pratico <a name="Esempio"></a>
+# Esempio pratico <a name="Esempio"></a>
 > Creare un nuovo repository git per un codebase esistente e fare il push su github
 ```
     cd /path/to/code 
@@ -157,14 +158,14 @@ L'opzione più usata:
 ```
 
 
-### Riferimenti <a name="Riferimenti"></a>
+# Riferimenti <a name="Riferimenti"></a>
  Qui troverete dove ho fatto riferimento per creare questa guida.
 
 [Atlassian.com](https://www.atlassian.com/it/git/tutorials/setting-up-a-repository)
 
 [Nick White: Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
 
-### License
+# License
 
 [MIT](/LICENSE) © jarek  
 
